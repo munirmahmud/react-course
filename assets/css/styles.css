@@ -1,0 +1,83 @@
+body {
+  background-color: #f1f1f1;
+  font-size: 1.2rem;
+}
+
+.header {
+  background-color: #6c63ff;
+  height: 60px;
+  margin-bottom: 2rem;
+}
+.header .container,
+.header .row {
+  height: 100%;
+}
+.header h3 {
+  margin: 0;
+  display: flex;
+  height: 100%;
+  align-items: center;
+  font-size: 1.5rem;
+}
+
+.header a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.content-wrapper {
+  background-color: #fff;
+  padding: 1.5rem;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  margin-bottom: 2rem;
+}
+.instructor {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  color: #fff;
+}
+
+.sec-heading {
+  background: #8e2de2; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #4a00e0, #8e2de2); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #4a00e0, #8e2de2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  padding: 2rem;
+  color: #fff;
+  margin-bottom: 2rem;
+  box-shadow: rgba(149, 157, 165, 0.5) 0px 8px 24px;
+}
+.sec-heading h1 {
+  margin: 0;
+}
+
+code h1,
+code h2,
+code h3,
+code h4,
+code h5,
+code h6 {
+  font-size: 100%;
+  display: inline-block;
+}
+code xmp {
+  display: inline-block;
+}
+
+ul li {
+  margin-bottom: 1rem;
+}
+ul li br {
+  margin-bottom: 0.5rem;
+}
+ul li p {
+  display: inline-block;
+}
+.ul-example li {
+  margin-bottom: auto;
+}
+
+.code-para {
+  line-height: 0.2;
+}
